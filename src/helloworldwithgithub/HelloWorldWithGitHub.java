@@ -13,7 +13,7 @@ import java.util.logging.Logger;
 
 /**
  *
- * @author Jonathan
+ * @author Jonathan et Niels (modification effectuée depuis le compte de Niels)
  */
 public class HelloWorldWithGitHub {
 
