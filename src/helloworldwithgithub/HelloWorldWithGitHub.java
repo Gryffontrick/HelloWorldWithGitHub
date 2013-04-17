@@ -25,7 +25,7 @@ public class HelloWorldWithGitHub {
             System.out.print("Quel est votre nom? ");
             BufferedReader input = new BufferedReader(new InputStreamReader(System.in));
             String var = input.readLine();
-            System.out.println("Bonjour " + var + "!");
+            System.out.println("Niels et Jonathan vous passe le bonjour, " + var + "!");
         } catch (IOException ex) {
             Logger.getLogger(HelloWorldWithGitHub.class.getName()).log(Level.SEVERE, null, ex);
         }
