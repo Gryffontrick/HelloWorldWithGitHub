@@ -18,7 +18,7 @@ import java.util.logging.Logger;
 public class HelloWorldWithGitHub {
 
     /**
-     * @param args the command line arguments test
+     * @param args the command line arguments
      */
     public static void main(String[] args) {
         try {
@@ -34,9 +34,14 @@ public class HelloWorldWithGitHub {
                 initJeuJustePrix();
             }
             System.out.println("Au revoir, " + joueur + "!");
+            joyeuxAnniversaire();
         } catch (IOException ex) {
             Logger.getLogger(HelloWorldWithGitHub.class.getName()).log(Level.SEVERE, null, ex);
         }
+    }
+    
+    private static void joyeuxAnniversaire(){
+        System.out.println("Joyeux anniversaire Kenova!");
     }
 
     private static void initJeuJustePrix() {
