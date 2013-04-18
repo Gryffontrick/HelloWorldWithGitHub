@@ -40,6 +40,7 @@ public class HelloWorldWithGitHub {
         }
     }
     
+    // Ligne commentaire ajoutée pour le test
     private static void joyeuxAnniversaire(){
         System.out.println("Joyeux anniversaire Kenova!");
     }
