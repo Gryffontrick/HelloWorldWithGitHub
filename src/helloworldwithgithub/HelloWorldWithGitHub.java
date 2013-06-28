@@ -34,15 +34,9 @@ public class HelloWorldWithGitHub {
                 initJeuJustePrix();
             }
             System.out.println("Au revoir, " + joueur + "!");
-            joyeuxAnniversaire();
         } catch (IOException ex) {
             Logger.getLogger(HelloWorldWithGitHub.class.getName()).log(Level.SEVERE, null, ex);
         }
-    }
-    
-    // Ligne commentaire ajoutée pour le test
-    private static void joyeuxAnniversaire(){
-        System.out.println("Joyeux anniversaire Kenova!");
     }
 
     private static void initJeuJustePrix() {
