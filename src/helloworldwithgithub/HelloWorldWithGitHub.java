@@ -33,6 +33,7 @@ public class HelloWorldWithGitHub {
             if(var.toLowerCase().equals("o")){
                 initJeuJustePrix();
             }
+            System.out.println("Exemple de la soutenance");
             System.out.println("Au revoir, " + joueur + "!");
         } catch (IOException ex) {
             Logger.getLogger(HelloWorldWithGitHub.class.getName()).log(Level.SEVERE, null, ex);
